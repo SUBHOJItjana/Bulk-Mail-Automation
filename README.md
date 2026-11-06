@@ -13,3 +13,5 @@ Steps:
   python send_applications.py --validate      # checks syntax + mail server (MX), writes validation_report.csv
   python send_applications.py                 # dry run: prints the emails, sends nothing
   python send_applications.py --send          # really sends (max 25/day, random 60-120 s gaps)
+
+  Before Sending Please update the Body of mail according to your convinent
